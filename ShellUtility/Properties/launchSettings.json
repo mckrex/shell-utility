@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ShellUtility": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\mkrecker\\AppData\\Local\\Temp\\tmp8180.tmp\" content"
+    }
+  }
+}

@@ -1,8 +1,4 @@
-﻿
-using System;
-using System.Diagnostics;
-using System.IO;
-using static System.Net.Mime.MediaTypeNames;
+﻿using System.Diagnostics;
 
 namespace ShellUtility
 {
@@ -28,7 +24,7 @@ namespace ShellUtility
 
         public static int CopyInfo(string path, string action, bool doBinaryCheck = false)
         {
-            if (!Enum.TryParse<CopyAction>(action, out var copyAction)) { return 1; };
+            if (!Enum.TryParse<CopyAction>(action.ToUpper(), out var copyAction)) { return 1; };
             if (!File.Exists(path) && !Directory.Exists(path)) { return 1; }
 
             if (TryGetFileInfo(path, out FileInfo file) && copyAction == CopyAction.CONTENT) 
@@ -46,38 +42,51 @@ namespace ShellUtility
         }
         public static int SetClipboardWithContent(FileInfo file, CopyAction copyAction, bool doBinaryCheck)
         {
-            if (doBinaryCheck && !IsProbablyText(file))
+            try
             {
-                TextCopy.ClipboardService.SetText(file.FullName);
+                using (var byteReader = new BinaryReader(file.OpenRead()))
+                {
+                    var allBytes = byteReader.ReadBytes((int)byteReader.BaseStream.Length);
+
+                    if (doBinaryCheck && !IsProbablyText(allBytes))
+                    {
+                        TextCopy.ClipboardService.SetText(file.FullName);
+                        return 1;
+                    }
+                    using (var reader = new StreamReader(new MemoryStream(allBytes)))
+                    {
+                        TextCopy.ClipboardService.SetText(reader.ReadToEnd());
+                        return 0;
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                TextCopy.ClipboardService.SetText($"{file.FullName}: {ex.Message}");
                 return 1;
             }
-
-            return 0;
         }
 
-        public static bool IsProbablyText(FileInfo file)
+        public static bool IsProbablyText(byte[] allBytes)
         {
-            const char nulChar = '\0';
-            byte[] bytes = new byte[8];
-            using (var reader = new BinaryReader(file.OpenRead()))
+#if DEBUG
+            var bytesAsDecimal = new string[100];
+            var bytesAsHex = new string[100];
+            for (int i = 0; i < 100; i++)
             {
-                var allBytes = reader.ReadBytes((int)reader.BaseStream.Length);
-                var bytesAsDecimal = new string[100];
-                var bytesAsHex = new string[100];
-                for (int i = 0; i < 100; i++)
-                {
-                    bytesAsDecimal[i] = $"{allBytes[i]}";
-                    bytesAsHex[i] = $"{(int)allBytes[i]:X2}";
-                }
-                Debug.WriteLine(string.Join('|', bytesAsDecimal));
-                Debug.WriteLine(string.Join('|', bytesAsHex));
-                if (_fileSignatures.Any(signature => allBytes.Take(signature.Length).SequenceEqual(signature)))
-                {
-                    return true;
-                }
-
-                return !allBytes.Any(c => c == 0);
+                bytesAsDecimal[i] = $"{allBytes[i]}";
+                bytesAsHex[i] = $"{(int)allBytes[i]:X2}";
             }
+            Debug.WriteLine(string.Join('|', bytesAsDecimal));
+            Debug.WriteLine(string.Join('|', bytesAsHex));
+#endif
+            if (_fileSignatures.Any(signature => allBytes.Take(signature.Length).SequenceEqual(signature)))
+            {
+                return true;
+            }
+
+            return !allBytes.Any(c => c == 0);
         }
 
         public static int SetClipboard(string path, CopyAction copyAction)

@@ -1,32 +1,129 @@
 ﻿
+using System;
+using System.Diagnostics;
+using System.IO;
+using static System.Net.Mime.MediaTypeNames;
+
 namespace ShellUtility
 {
     public static class InfoCopier
     {
-        public static int CopyInfo(string path, string action)
+        private static readonly List<byte[]> _fileSignatures = new()
         {
-            if (action == "path")
+            //Wikipedia File Signatures - https://en.wikipedia.org/wiki/List_of_file_signatures
+            new byte[] { 0xEF, 0xBB, 0xBF },        //utf-8
+            new byte[] { 0xFF, 0xFE },              //utf-16LE
+            new byte[] { 0xFE, 0xFF },              //utf-16BE
+            new byte[] { 0xFF, 0xFE, 0x00, 0x00 },  //utf-32LE
+            new byte[] { 0x00, 0x00, 0xFE, 0xFF },  //utf-32BE
+            new byte[] { 0x2B, 0x2F, 0x76, 0x38 },  //utf-7
+            new byte[] { 0x2B, 0x2F, 0x76, 0x39 },  //utf-7
+            new byte[] { 0x2B, 0x2F, 0x76, 0x2B },  //utf-7
+            new byte[] { 0x2B, 0x2F, 0x76, 0x2F },  //utf-7
+            new byte[] { 0x0E, 0xFE, 0xFF},         //scsu
+            new byte[] { 0xDD, 0x73, 0x66, 0x73},   //utf-ebcdic
+
+        };
+        private static readonly int _headerReadLength = _fileSignatures.Max(m => m.Length);
+
+        public static int CopyInfo(string path, string action, bool doBinaryCheck = false)
+        {
+            if (!Enum.TryParse<CopyAction>(action, out var copyAction)) { return 1; };
+            if (!File.Exists(path) && !Directory.Exists(path)) { return 1; }
+
+            if (TryGetFileInfo(path, out FileInfo file) && copyAction == CopyAction.CONTENT) 
+            { 
+                return SetClipboardWithContent(file, copyAction, doBinaryCheck);
+            }
+            else if (copyAction != CopyAction.CONTENT) 
+            { 
+                return SetClipboard(path, copyAction);
+            }
+            else
             {
-                TextCopy.ClipboardService.SetText(path);
-                return 0;
+                return 1; 
+            }
+        }
+        public static int SetClipboardWithContent(FileInfo file, CopyAction copyAction, bool doBinaryCheck)
+        {
+            if (doBinaryCheck && !IsProbablyText(file))
+            {
+                TextCopy.ClipboardService.SetText(file.FullName);
+                return 1;
             }
 
-            if (action == "unix")
+            return 0;
+        }
+
+        public static bool IsProbablyText(FileInfo file)
+        {
+            const char nulChar = '\0';
+            byte[] bytes = new byte[8];
+            using (var reader = new BinaryReader(file.OpenRead()))
             {
-                var drive = Path.GetPathRoot(path);
-                var relPath = Path.GetFullPath(path).Replace(drive, string.Empty).Replace('\\', '/');
-                TextCopy.ClipboardService.SetText($"/{drive[0]}/{relPath}");
-                return 0;
+                var allBytes = reader.ReadBytes((int)reader.BaseStream.Length);
+                var bytesAsDecimal = new string[100];
+                var bytesAsHex = new string[100];
+                for (int i = 0; i < 100; i++)
+                {
+                    bytesAsDecimal[i] = $"{allBytes[i]}";
+                    bytesAsHex[i] = $"{(int)allBytes[i]:X2}";
+                }
+                Debug.WriteLine(string.Join('|', bytesAsDecimal));
+                Debug.WriteLine(string.Join('|', bytesAsHex));
+                if (_fileSignatures.Any(signature => allBytes.Take(signature.Length).SequenceEqual(signature)))
+                {
+                    return true;
+                }
+
+                return !allBytes.Any(c => c == 0);
             }
+        }
 
-            var file = new FileInfo(path);
+        public static int SetClipboard(string path, CopyAction copyAction)
+        {
+            switch (copyAction)
+            {
+                case CopyAction.PATH:
+                {
+                    TextCopy.ClipboardService.SetText(path);
+                    break;
+                }
+                case CopyAction.UNIX:
+                {
+                    var drive = Path.GetPathRoot(path);
+                    var relPath = Path.GetRelativePath(drive, path).Replace(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar);
+                    TextCopy.ClipboardService.SetText($"/{drive[0]}/{relPath}");
+                    break;
+                }
+                case CopyAction.NONE:
+                case CopyAction.NAME:
+                default:
+                {
+                    TextCopy.ClipboardService.SetText(Path.GetFileName(path) ?? Path.GetDirectoryName(path));
+                    break;
+                }
 
-            if (!file.Exists) { return 1; }
-
-            TextCopy.ClipboardService.SetText(file.Name);
+            }
             return 0;
 
         }
+        private static bool TryGetFileInfo(string path, out FileInfo file)
+        {
+            file = new FileInfo(path);
+            return file.Exists;
+        }
+
 
     }
+
+    public enum CopyAction
+    {
+        NONE,
+        PATH,
+        UNIX,
+        NAME,
+        CONTENT
+    }
+
 }

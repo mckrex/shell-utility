@@ -1,0 +1,1745 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://ss64.com/nt/
+Subject: An A-Z Index of Windows CMD commands - SS64.com
+Date: Sun, 25 Feb 2024 18:22:12 -0600
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--kT3tnyi8VXhkgCieNWmRiVsEUxM7rW7YAHrcSdJjCt----"
+
+
+------MultipartBoundary--kT3tnyi8VXhkgCieNWmRiVsEUxM7rW7YAHrcSdJjCt----
+Content-Type: text/html
+Content-ID: <frame-56EACB7C2FB58AB75014BA278C2DCD78@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ss64.com/nt/
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-0717788c-859c-40d5-9e72-74d39869f06c@mhtml.blink" />
+<meta name=3D"viewport" content=3D"width=3D768, initial-scale=3D1">
+<link rel=3D"STYLESHEET" href=3D"https://ss64.com/main.css" type=3D"text/cs=
+s">
+<title>An A-Z Index of Windows CMD commands - SS64.com</title>
+<link rel=3D"canonical" href=3D"https://ss64.com/nt/">
+<link rel=3D"search" href=3D"https://ss64.com/opensearchdescription.xml" ty=
+pe=3D"application/opensearchdescription+xml" title=3D"SS64.com">
+<meta name=3D"Description" content=3D"An A-Z Index of Windows CMD commands.=
+">
+
+
+</head>
+<body><div id=3D"tnav"><ul>
+<li class=3D"tbtn"><a href=3D"https://ss64.com/">SS64</a></li>
+<li class=3D"tflat">CMD <svg viewBox=3D"0 0 13 20.1" width=3D"13" height=3D=
+"13" style=3D"transform: rotate(0deg);"><path d=3D"M0 2.9l7.2 7.2-7.1 7.1L3=
+ 20.1l7.1-7.1 2.9-2.9L2.9 0 0 2.9"></path></svg></li>
+<li class=3D"tbtn"><a href=3D"https://ss64.com/nt/syntax.html">How-to <svg =
+viewBox=3D"0 0 13 20.1" width=3D"13" height=3D"13" style=3D"transform: rota=
+te(0deg);"><path d=3D"M0 2.9l7.2 7.2-7.1 7.1L3 20.1l7.1-7.1 2.9-2.9L2.9 0 0=
+ 2.9"></path></svg></a></li>
+<li><div id=3D"search"><form action=3D"https://www.google.com/search" metho=
+d=3D"get">
+<input type=3D"text" name=3D"q" id=3D"qu" size=3D"27" maxlength=3D"255" ari=
+a-label=3D"Search text">
+<input class=3D"submit mousetrap" value=3D"Search" id=3D"btn" type=3D"submi=
+t">
+</form></div></li>
+</ul></div>
+<h1>An A-Z Index of  <span class=3D"blu">Windows CMD </span> commands.</h1>
+<table class=3D"az">
+<tbody><tr>
+<td>A</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/accesschk.html">AccessChk</a></td>
+<td>Get the security descriptor (SDDL) for an object (file, directory, reg =
+key).</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/addusers.html">ADDUSERS</a></td>
+<td>Add or list users to/from a CSV file</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/admodcmd.html">ADmodcmd</a></td>
+<td>Active Directory Bulk Modify</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/arp.html">ARP</a></td>
+<td>Address Resolution Protocol</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/assoc.html">ASSOC</a></td>
+<td>Change file extension associations&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/attrib.html">ATTRIB</a></td>
+<td>Change file attributes</td>
+</tr>
+<tr>
+<td><a id=3D"b"></a>B</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/bcdboot.html">BCDBOOT</a></td>
+<td>Create or repair a system partition</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/bcdedit.html">BCDEDIT</a></td>
+<td>Manage Boot Configuration Data</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/bitsadmin.html">BITSADMIN</a></td>
+<td>Background Intelligent Transfer Service</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/bootrec.html">BOOTREC</a></td>
+<td>Repair or replace a  partition boot sector</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/break.html">BREAK</a></td>
+<td>Do nothing, successfully =E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/browstat.html">BROWSTAT</a></td>
+<td>Get domain, browser and PDC info</td>
+</tr>
+<tr>
+<td><a id=3D"c"></a>C</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cacls.html">CACLS</a></td>
+<td>Change file permissions</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/call.html">CALL</a></td>
+<td>Call one batch program from another =E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/certreq.html">CERTREQ</a></td>
+<td>Request certificate from a certification authority</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/certutil.html">CERTUTIL</a></td>
+<td>Manage certification authority (CA) files and services</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cd.html">CD</a></td>
+<td>Change Directory - move to a specific Folder&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/change.html">CHANGE</a></td>
+<td>Change Terminal Server Session properties</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/changepk.html">CHANGEPK</a></td>
+<td>Upgrade device Edition/Product Key</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/chcp.html">CHCP</a></td>
+<td>Change the active console Code Page</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cd.html">CHDIR</a></td>
+<td>Change Directory - move to a specific Folder&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/chkdsk.html">CHKDSK</a></td>
+<td>Check Disk - check and repair disk problems</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/chkntfs.html">CHKNTFS</a></td>
+<td>Check the NTFS file system</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/choice.html">CHOICE</a></td>
+<td>Accept keyboard input to a batch file</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cipher.html">CIPHER</a></td>
+<td>Encrypt or Decrypt files/folders, overwrite data.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cleanmgr.html">CleanMgr</a></td>
+<td>Automated cleanup of Temp files, recycle bin</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/clip.html">CLIP</a></td>
+<td>Copy STDIN to the Windows clipboard</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cls.html">CLS</a></td>
+<td>Clear the screen&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cmd.html">CMD</a></td>
+<td>Start a new CMD shell</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/cmdkey.html">CMDKEY</a></td>
+<td>Manage stored usernames/passwords</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/color.html">COLOR</a></td>
+<td>Change colors of the CMD window&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/comp.html">COMP</a></td>
+<td>Compare the contents of two files or sets of files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/compact.html">COMPACT</a></td>
+<td>Compress files or folders on an NTFS partition</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/compress.html">COMPRESS</a></td>
+<td>Compress one or more files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/con.html">CON</a></td>
+<td>Console input</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/convert.html">CONVERT</a></td>
+<td>Convert a FAT drive to NTFS</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/copy.html">COPY</a></td>
+<td>Copy one or more files to another location&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/coreinfo.html">Coreinfo</a></td>
+<td>Show the mapping between logical &amp; physical processors</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/csccmd.html">CSCcmd</a></td>
+<td>Client-side caching (Offline Files)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/csvde.html">CSVDE</a></td>
+<td>Import or Export Active Directory data</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/curl.html">CURL</a></td>
+<td>Transfer data from or to a server</td>
+</tr>
+<tr>
+<td><a id=3D"d"></a>D</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/date.html">DATE</a></td>
+<td>Display or set the date&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/defrag.html">DEFRAG</a></td>
+<td>Defragment hard drive</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/del.html">DEL</a></td>
+<td>Delete one or more files&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/delprof.html">DELPROF</a></td>
+<td>Delete user profiles</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/deltree.html">DELTREE</a></td>
+<td>Delete a folder and all subfolders</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/devcon.html">DevCon</a></td>
+<td>Device Manager Command Line Utility</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dir.html">DIR</a></td>
+<td>Display a list of files and folders&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>DIRQUOTA</td>
+<td>File Server Resource Manager Disk quotas</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/diruse.html">DIRUSE</a></td>
+<td>Display  directory sizes/usage</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/diskpart.html">DISKPART</a></td>
+<td>Disk Administration</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/diskshadow.html">DISKSHADOW</a></td>
+<td>Volume Shadow Copy Service</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/diskuse.html">DISKUSE</a></td>
+<td>Show the space used in folders</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dism.html">DISM</a></td>
+<td>Deployment Image Servicing and Management</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/displayswitch.html">DisplaySwitch</a></t=
+d>
+<td>Specify which display to use and how to use it</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dnscmd.html">DNSCMD</a></td>
+<td>Manage DNS servers</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/doskey.html">DOSKEY</a></td>
+<td>Edit command line, recall commands, and create macros</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/driverquery.html">DriverQuery</a></td>
+<td>Display installed device drivers</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsacls.html">DSACLs</a></td>
+<td>Active Directory ACLs</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsadd.html">DSAdd</a></td>
+<td>Add items to Active Directory (<a href=3D"https://ss64.com/nt/dsadd-use=
+r.html">user</a> <a href=3D"https://ss64.com/nt/dsadd-group.html">group</a>=
+ <a href=3D"https://ss64.com/nt/dsadd-computer.html">computer</a>) </td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsget.html">DSGet</a></td>
+<td>View items in Active Directory (<a href=3D"https://ss64.com/nt/dsget-us=
+er.html">user</a> <a href=3D"https://ss64.com/nt/dsget-group.html">group</a=
+> <a href=3D"https://ss64.com/nt/dsget-computer.html">computer</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsquery.html">DSQuery</a></td>
+<td>Search Active Directory (<a href=3D"https://ss64.com/nt/dsquery-user.ht=
+ml">user</a> <a href=3D"https://ss64.com/nt/dsquery-group.html">group</a> <=
+a href=3D"https://ss64.com/nt/dsquery-computer.html">computer</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsmod.html">DSMod</a></td>
+<td>Modify items in Active Directory (<a href=3D"https://ss64.com/nt/dsmod-=
+user.html">user</a> <a href=3D"https://ss64.com/nt/dsmod-group.html">group<=
+/a> <a href=3D"https://ss64.com/nt/dsmod-computer.html">computer</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsmove.html">DSMove</a></td>
+<td>Move an Active Directory Object</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsrm.html">DSRM</a></td>
+<td>Remove items from Active Directory</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/dsregcmd.html">DSREGCMD</a></td>
+<td>Directory Service Registration</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/du.html">DU</a></td>
+<td>Display  directory sizes/usage</td>
+</tr>
+<tr>
+<td><a id=3D"e"></a>E</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/echo.html">ECHO</a></td>
+<td>Display message on screen&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/endlocal.html">ENDLOCAL</a></td>
+<td>End localisation of the environment in a batch file&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/del.html">ERASE</a></td>
+<td>Delete one or more files&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/eventcreate.html">EVENTCREATE</a>&nbsp;<=
+/td>
+<td>Add a message to the Windows event log</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/exit.html">EXIT</a></td>
+<td>Quit the current script/routine and set an errorlevel&nbsp;=E2=80=A2</t=
+d>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/expand.html">EXPAND</a></td>
+<td>Uncompress CAB files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/explorer.html">EXPLORER</a></td>
+<td>Open Windows Explorer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/extract.html">EXTRACT</a></td>
+<td>Uncompress CAB files</td>
+</tr>
+<tr>
+<td><a id=3D"f"></a>F</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/fc.html">FC</a></td>
+<td>Compare two files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/find.html">FIND</a></td>
+<td>Search for a text string in a file</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/findstr.html">FINDSTR</a></td>
+<td>Search for strings in files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/fltmc.html">FLTMC</a></td>
+<td>Manage MiniFilter drivers</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/fondue.html">FONDUE</a></td>
+<td>Features on Demand User Experience Tool</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/for_f.html">FOR /F</a></td>
+<td>Loop command: against a set of files&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/for_cmd.html">FOR /F</a></td>
+<td>Loop command: against the results of another command&nbsp;=E2=80=A2</td=
+>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/for.html">FOR</a></td>
+<td>Loop command: all options Files, Directory, List&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/forfiles.html">FORFILES</a></td>
+<td>Batch process multiple files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/format.html">FORMAT</a></td>
+<td>Format a disk</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/freedisk.html">FREEDISK</a></td>
+<td>Check free disk space</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/fsutil.html">FSUTIL</a></td>
+<td>File and Volume utilities</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ftp.html">FTP</a></td>
+<td>File Transfer Protocol</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ftype.html">FTYPE</a></td>
+<td>File extension file type associations&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td><a id=3D"g"></a>G</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/getmac.html">GETMAC</a></td>
+<td>Display the Media Access Control (MAC) address</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/goto.html">GOTO</a></td>
+<td>Direct a batch program to jump to a labelled line&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/gpresult.html">GPRESULT</a></td>
+<td>Display Resultant Set of Policy information</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/gpupdate.html">GPUPDATE</a></td>
+<td>Update Group Policy settings</td>
+</tr>
+<tr>
+<td><a id=3D"h"></a>H</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/help.html">HELP</a></td>
+<td>Online Help</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/hostname.html">HOSTNAME</a></td>
+<td>Display the host name of the computer</td>
+</tr>
+<tr>
+<td><a id=3D"i"></a>I<a id=3D"j"></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/icacls.html">iCACLS</a></td>
+<td>Change file and folder permissions</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/iexpress.html">IEXPRESS</a></td>
+<td>Create a self extracting ZIP file archive</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/if.html">IF</a></td>
+<td>Conditionally perform a command&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ifmember.html">IFMEMBER</a></td>
+<td>Is the current user a member of a group</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ipconfig.html">IPCONFIG</a></td>
+<td>Configure IP</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/inuse.html">INUSE</a></td>
+<td>Replace files that are in use by the OS</td>
+</tr>
+<tr>
+<td><a id=3D"k"></a>K</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/klist.html">KLIST</a></td>
+<td>List cached Kerberos tickets</td>
+</tr>
+<tr>
+<td><a id=3D"l"></a>L</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/label.html">LABEL</a></td>
+<td>Edit a disk label</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/lgpo.html">LGPO</a></td>
+<td>Local Group Policy Object utility</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/lodctr.html">LODCTR</a></td>
+<td>Load PerfMon performance counters</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/logman.html">LOGMAN</a></td>
+<td>Manage Performance Monitor logs</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/logoff.html">LOGOFF</a></td>
+<td>Log a user off</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/logtime.html">LOGTIME</a></td>
+<td>Log the date and time in a file</td>
+</tr>
+<tr>
+<td><a id=3D"m"></a>M</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/makecab.html">MAKECAB</a></td>
+<td>Create .CAB files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/manage-bde.html">Manage-BDE</a></td>
+<td>BitLocker Drive Encryption</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/mbr2gpt.html">MBR2GPT</a></td>
+<td> Convert a disk partition from  Master Boot Record to a GPT</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/md.html">MD</a></td>
+<td>Create a new Directory&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/mklink.html">MKLINK</a></td>
+<td>Create a symbolic link (linkd)&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/mode.html">MODE</a></td>
+<td>Configure a system device COM/LPT/CON</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/more.html">MORE</a></td>
+<td>Display output, one screen at a time</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/mountvol.html">MOUNTVOL</a></td>
+<td>Manage a volume mount point</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/move.html">MOVE</a></td>
+<td>Move files from one folder to another&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/moveuser.html">MOVEUSER</a></td>
+<td>Move a user from one domain to another</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/msg.html">MSG</a></td>
+<td>Send a message</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/msiexec.html">MSIEXEC</a></td>
+<td>Microsoft Windows Installer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/msinfo32.html">MSINFO32</a></td>
+<td>System Information</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/mstsc.html">MSTSC</a></td>
+<td>Terminal Server Connection/Remote Desktop Protocol(RDP)</td>
+</tr>
+<tr>
+<td><a id=3D"n"></a>N</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/net.html">NET</a></td>
+<td>Manage network resources</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/netdom.html">NETDOM</a></td>
+<td>Domain Manager</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/netsh.html">NETSH</a></td>
+<td>Configure Network Interfaces, Firewall &amp; Remote access</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/nbtstat.html">NBTSTAT</a></td>
+<td>Display networking statistics (NetBIOS over TCP/IP)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/netstat.html">NETSTAT</a></td>
+<td>Display networking statistics (TCP/IP)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>NLSINFO</td>
+<td>Display <a href=3D"https://ss64.com/locale.html">locale</a> information=
+ (reskit)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/nltest.html">NLTEST</a></td>
+<td>Network Location Test (AD)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/nmbind.html">NMBIND</a></td>
+<td>Manage Hyper-V network bindings</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/now.html">NOW</a></td>
+<td>Display the current Date and Time</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/nslookup.html">NSLOOKUP</a></td>
+<td>Name server lookup</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ntbackup.html">NTBACKUP</a></td>
+<td>Windows Backup folders to tape</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ntdsutil.html">NTDSUtil</a></td>
+<td>Active Directory Domain Services management</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ntrights.html">NTRIGHTS</a></td>
+<td>Edit user account rights</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/nvspbind.html">NVSPBIND</a></td>
+<td>Modify network bindings</td>
+</tr>
+<tr>
+<td><a id=3D"o"></a>O</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/openfiles.html">OPENFILES</a></td>
+<td>Query or display open files</td>
+</tr>
+<tr>
+<td><a id=3D"p"></a>P</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/path.html">PATH</a></td>
+<td>Display or set a search path for executable files&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pathping.html">PATHPING</a></td>
+<td>Trace route plus network latency and packet loss</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pause.html">PAUSE</a></td>
+<td>Suspend processing of a batch file&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/perms.html">PERMS</a></td>
+<td>Show permissions for a user</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ping.html">PING</a></td>
+<td>Test a network connection</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pktmon.html">PKTMON</a></td>
+<td>Monitor internal packet propagation and packet drop reports</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pnputil.html">PNPUTIL</a></td>
+<td>Plug and Play Utility</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/popd.html">POPD</a></td>
+<td>Return to a previous directory saved by PUSHD&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/portqry.html">PORTQRY</a></td>
+<td>Display the status of ports and services</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/powercfg.html">POWERCFG</a></td>
+<td>Configure power settings</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/print.html">PRINT</a></td>
+<td>Print a text file</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/printbrm.html">PRINTBRM</a></td>
+<td>Print queue Backup/Recovery</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prncnfg.html">PRNCNFG</a></td>
+<td>Configure a printer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prndrvr.html">PRNDRVR</a></td>
+<td>Add, delete or list print drivers.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prnjobs.html">PRNJOBS</a></td>
+<td>Pause, resume, cancel, or list print jobs.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prnmngr.html">PRNMNGR</a></td>
+<td>Add, delete, or list printer connections.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prnport.html">PRNPORT</a></td>
+<td>Manage Printer Ports, change port configuration.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prnqctl.html">PRNQCTL</a></td>
+<td>Manage Print Queues, print a test page.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/procdump.html">ProcDump</a></td>
+<td>Monitor an application for CPU spikes</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/prompt.html">PROMPT</a></td>
+<td>Change the command prompt&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psexec.html">PsExec</a></td>
+<td>Execute process remotely</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psfile.html">PsFile</a></td>
+<td>Show files opened remotely</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psgetsid.html">PsGetSid</a></td>
+<td>Display the SID of a computer or a user</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psinfo.html">PsInfo</a></td>
+<td>List information about a system</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pskill.html">PsKill</a></td>
+<td>Kill processes by name or process ID</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pslist.html">PsList</a></td>
+<td>List detailed information about processes</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psloggedon.html">PsLoggedOn</a></td>
+<td>Who's logged on (locally or via resource sharing)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psloglist.html">PsLogList</a></td>
+<td>Event log records</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pspasswd.html">PsPasswd</a></td>
+<td>Change account password</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psping.html">PsPing</a></td>
+<td>Measure network performance</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psservice.html">PsService</a></td>
+<td>View and control services</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/psshutdown.html">PsShutdown</a></td>
+<td>Shutdown or reboot a computer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pssuspend.html">PsSuspend</a></td>
+<td>Suspend processes</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/pushd.html">PUSHD</a></td>
+<td>Save and then change the current directory&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td><a id=3D"q"></a>Q</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/query-process.html">QPROCESS</a></td>
+<td><a href=3D"https://ss64.com/nt/query-process.html">Query Process </a>Di=
+splay processes</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/query-session.html">QWinsta</a></td>
+<td><a href=3D"https://ss64.com/nt/query-session.html">Query Session</a> Di=
+splay all sessions (TS/Remote Desktop)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/query-termserver.html">QAppSrv</a></td>
+<td><a href=3D"https://ss64.com/nt/query-termserver.html">Query TermServer<=
+/a> List all servers (TS/Remote Desktop)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/query-user.html">QUSER</a></td>
+<td><a href=3D"https://ss64.com/nt/query-user.html">Query User</a> Display =
+user sessions (TS/Remote Desktop)</td>
+</tr>
+<tr>
+<td><a id=3D"r"></a>R</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rasdial.html">RASDIAL</a></td>
+<td>Manage RAS connections</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rasphone.html">RASPHONE</a></td>
+<td>Manage RAS connections</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rd.html">RD</a></td>
+<td>Delete a Directory&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/reagentc.html">REAgentC</a></td>
+<td><span class=3D"space">Configure WindowsRE and System Reset</span></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/recover.html">RECOVER</a></td>
+<td>Recover a damaged file from a defective disk</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/reg.html">REG</a></td>
+<td>Registry: Read, Set, Export, Delete keys and values</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/regedit.html">REGEDIT</a></td>
+<td>Import or export registry settings</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/regsvr32.html">REGSVR32</a></td>
+<td>Register or unregister a DLL</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/regini.html">REGINI</a></td>
+<td>Change Registry Permissions</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rem.html">REM</a></td>
+<td>Record comments (remarks) in a batch file&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ren.html">REN</a></td>
+<td>Rename a file or files&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/replace.html">REPLACE</a></td>
+<td>Replace or update one file with another</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/reset-session.html">Reset Session</a></t=
+d>
+<td>Delete a Remote Desktop Session</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rd.html">RMDIR</a></td>
+<td>Delete a Directory&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rmtshare.html">RMTSHARE</a></td>
+<td>Share a folder or a printer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/robocopy.html">ROBOCOPY</a></td>
+<td>Robust File and Folder Copy</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/route.html">ROUTE</a></td>
+<td>Manipulate network routing tables</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/run.html">RUN</a></td>
+<td><a href=3D"https://ss64.com/nt/run.html">Start | RUN</a> commands</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/runas.html">RUNAS</a></td>
+<td>Execute a program under a different user account</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rundll32.html">RUNDLL32</a></td>
+<td>Run a DLL command (add/remove print connections)</td>
+</tr>
+<tr>
+<td><a id=3D"s"></a>S</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sc.html">SC</a></td>
+<td>Service Control</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/schtasks.html">SCHTASKS</a></td>
+<td>Schedule a command to run at a specific time</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/scriptrunner.html">ScriptRunner</a></td>
+<td>Run one or more scripts in sequence</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/set.html">SET</a></td>
+<td>Display, set, or remove session environment variables&nbsp;=E2=80=A2</t=
+d>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/setlocal.html">SETLOCAL</a></td>
+<td>Control the visibility of environment variables&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/setobjectsecurity.html">SetObjectSecurit=
+y</a></td>
+<td>Set  security  for  an object (file, directory, reg key etc).</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/setspn.html">SetSPN</a></td>
+<td>Edit Service Principal Names</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/setx.html">SETX</a></td>
+<td>Set environment variables</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sfc.html">SFC</a></td>
+<td>System File Checker</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/share.html">SHARE</a></td>
+<td>List or edit a file share or print share</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/shellrunas.html">ShellRunAs</a></td>
+<td>Run a command under a different user account</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/shift.html">SHIFT</a></td>
+<td>Shift the position of batch file parameters&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/shortcut.html">SHORTCUT</a></td>
+<td>Create a windows shortcut (.LNK file)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/shutdown.html">SHUTDOWN</a></td>
+<td>Shutdown the computer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sigcheck.html">SIGCHECK</a></td>
+<td>Display file version no. VirusTotal status &amp; timestamp</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sleep.html">SLEEP</a></td>
+<td>Wait for x seconds</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/slmgr.html">SLMGR</a></td>
+<td>Software Licensing Management</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sort.html">SORT</a></td>
+<td>Sort input</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ssh.html">SSH</a></td>
+<td>OpenSSH remote login client</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/start.html">START</a></td>
+<td>Start a program, command or batch file&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/strings.html">STRINGS</a></td>
+<td>Search for ANSI and UNICODE strings in binary files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/subinacl.html">SUBINACL</a></td>
+<td>Edit file and folder Permissions, Ownership and Domain</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/subst.html">SUBST</a></td>
+<td>Associate a path with a drive letter</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sxstrace.html">SXSTRACE</a></td>
+<td>Diagnose side-by-side problems</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/sysmon.html">SYSMON</a></td>
+<td>Monitor and log system activity to the Windows event log</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/systeminfo.html">SYSTEMINFO</a></td>
+<td>List system configuration</td>
+</tr>
+<tr>
+<td><a id=3D"t"></a>T<a id=3D"u"></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/takeown.html">TAKEOWN</a></td>
+<td>Take ownership of a file</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tar.html">TAR</a></td>
+<td>Store, list or extract files in an archive</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tasklist.html">TASKLIST</a></td>
+<td>List running applications and services</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/taskkill.html">TASKKILL</a></td>
+<td>End a running process</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/telnet.html">TELNET</a></td>
+<td>Communicate with another host using the TELNET protocol</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/time.html">TIME</a></td>
+<td>Display or set the system time&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/timeout.html">TIMEOUT</a></td>
+<td>Delay processing of a batch file/command</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/title.html">TITLE</a></td>
+<td>Set the window title for a CMD.EXE session&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tlist.html">TLIST</a></td>
+<td>Task list with full path</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/touch.html">TOUCH</a></td>
+<td>Change file timestamps</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tracert.html">TRACERT</a></td>
+<td>Trace route to a remote host</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tree.html">TREE</a></td>
+<td>Graphical display of folder structure</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tsdiscon.html">TSDISCON</a></td>
+<td>Disconnect a Remote Desktop Session</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tskill.html">TSKILL</a></td>
+<td>End a running process</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/type.html">TYPE</a></td>
+<td>Display the contents of a text file&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/typeperf.html">TypePerf</a></td>
+<td>Write Performance Monitor data to a log file</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/tzutil.html">TZUTIL</a></td>
+<td>Time Zone Utility</td>
+</tr>
+<tr>
+<td><a id=3D"v"></a>V</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/vbc.html">VBC</a></td>
+<td>Visual Basic compiler</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/ver.html">VER</a></td>
+<td>Display version information&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/verify.html">VERIFY</a></td>
+<td>Verify that files have been saved&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/vmconnect.html">VMConnect</a></td>
+<td>Connect to a Hyper-V Virtual Machine</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/vol.html">VOL</a></td>
+<td>Display a disk label&nbsp;=E2=80=A2</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/vssadmin.html">VSSADMIN</a></td>
+<td>Display volume shadow copy backups + writers/providers</td>
+</tr>
+<tr>
+<td><a id=3D"w"></a>W</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/w32tm.html">W32TM</a></td>
+<td>Time Service</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/waitfor.html">WAITFOR</a></td>
+<td>Wait for or send a signal</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wbadmin.html">WBADMIN</a></td>
+<td>Windows Backup Admin</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wecutil.html">WECUTIL</a></td>
+<td>Windows Event Collector Utility</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wevtutil.html">WEVTUTIL</a></td>
+<td>Clear event logs, enable/disable/query logs</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/where.html">WHERE</a></td>
+<td>Locate and display files in a directory tree</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/whoami.html">WHOAMI</a></td>
+<td>Output the current UserName and domain</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/whois.html">WHOIS</a></td>
+<td>Lookup the registration record for a domain</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/windiff.html">WINDIFF</a></td>
+<td>Compare the contents of two files or sets of files</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/winget.html">WINGET</a></td>
+<td>Windows Package Manager (coming <a href=3D"https://devblogs.microsoft.c=
+om/commandline/windows-package-manager-preview/">May 2021</a>)</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/winmgmt.html">WINMGMT</a></td>
+<td>Manage the  WMI service/WMI repository</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/winrm.html">WINRM</a></td>
+<td>Windows Remote Management</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/winrs.html">WINRS</a></td>
+<td>Windows Remote Shell</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wmic.html">WMIC</a></td>
+<td>WMI Commands</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wpeutil.html">WPEUTIL</a></td>
+<td>Run Preinstallation Environment (WinPE) commands</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wpr.html">WPR</a></td>
+<td>Windows Performance Recorder</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wt.html">WT</a></td>
+<td>Windows Terminal</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wusa.html">WUSA</a></td>
+<td>Windows Update Standalone Installer</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/wuauclt.html">WUAUCLT</a></td>
+<td>Windows Update</td>
+</tr>
+<tr>
+<td><a id=3D"x"></a>X<a id=3D"y"></a><a id=3D"z"></a></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/xcacls.html">XCACLS</a></td>
+<td>Change file and folder permissions</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/xcopy.html">XCOPY</a></td>
+<td>Copy files and folders</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><a href=3D"https://ss64.com/nt/rem.html">::</a></td>
+<td>Comment / Remark&nbsp;=E2=80=A2</td>
+</tr>
+</tbody></table>
+<p>To scroll this page, press  [ a =E2=80=93 z ] on the keyboard, or '<span=
+ class=3D"code">\</span>' to Search.</p>
+<p>Commands marked =E2=80=A2 are <i>Internal</i> commands only available wi=
+thin the CMD shell.<br>
+All other commands (not marked with =E2=80=A2) are <i>external</i> commands=
+.<br>
+External commands may be used under the CMD shell, <a href=3D"https://ss64.=
+com/ps/">PowerShell</a>, or directly from <a href=3D"https://ss64.com/nt/ru=
+n.html">START-RUN</a>.</p>
+<p class=3D"space"><a href=3D"https://ss64.com/nt/commands.html">A categori=
+zed list</a> of Windows CMD commands.<br>
+Microsoft Help pages: <a href=3D"https://docs.microsoft.com/en-us/windows-s=
+erver/administration/windows-commands/windows-commands">Windows Commands 8.=
+1-10 / Windows Server 2012-2019</a><br>
+<a href=3D"https://ss64.org/viewforum.php?f=3D2">SS64 CMD Forum</a><br>
+<a href=3D"https://ss64.com/links/windows.html">Websites,  Books and Utilit=
+ies</a> for Microsoft Windows.</p><!-- #BeginLibraryItem "/Library/foot_men=
+u.lbi" --><hr>
+<div id=3D"bl">&nbsp;</div>
+<div id=3D"br">Copyright =C2=A9 1999-2024 <a href=3D"https://ss64.com/">SS6=
+4.com</a><br>
+Some rights reserved</div><!-- #EndLibraryItem -->
+<iframe name=3D"__tcfapiLocator" style=3D"display: none;"></iframe></body><=
+/html>
+------MultipartBoundary--kT3tnyi8VXhkgCieNWmRiVsEUxM7rW7YAHrcSdJjCt----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0717788c-859c-40d5-9e72-74d39869f06c@mhtml.blink
+
+@charset "utf-8";
+
+.qc-cmp-button.qc-cmp-secondary-button:hover { background-color: rgb(54, 13=
+9, 214) !important; border-color: transparent !important; }
+
+.qc-cmp-button.qc-cmp-secondary-button:hover { color: rgb(255, 255, 255) !i=
+mportant; }
+
+.qc-cmp-button.qc-cmp-secondary-button { color: rgb(54, 139, 214) !importan=
+t; }
+
+.qc-cmp-button.qc-cmp-secondary-button { background-color: rgb(238, 238, 23=
+8) !important; border-color: transparent !important; }
+------MultipartBoundary--kT3tnyi8VXhkgCieNWmRiVsEUxM7rW7YAHrcSdJjCt----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://ss64.com/main.css
+
+@charset "utf-8";
+
+html { font-size: 100%; }
+
+body { background-color: rgb(217, 217, 222); color: rgb(20, 20, 20); font-f=
+amily: "Helvetica Neue", "Segoe UI Variable Static Text", Helvetica, Arial,=
+ Oxygen-Sans, Roboto, Ubuntu, sans-serif; font-size: 1rem; font-weight: 400=
+; margin: 15px; }
+
+p, ol, ul, h1, h2, h3, dt, dd, table { font-weight: 400; line-height: 1.3re=
+m; }
+
+p, hr, ol, ul, dd, dl { max-width: 1000px; }
+
+hr { color: rgb(255, 255, 255); margin-left: 0px; text-align: left; }
+
+pre, tt, code { font-family: "Lucida Console", "Andale Mono", Menlo, "Couri=
+er New", Courier, monospace; font-size: 1rem; color: rgb(0, 0, 0); line-hei=
+ght: 1.125rem; }
+
+h1 { clear: both; font-size: 1.5rem; line-height: 1.563rem; letter-spacing:=
+ 0.01rem; }
+
+h2 { font-family: Palatino, "Palatino Linotype", Georgia, serif; font-size:=
+ 1.5rem; line-height: 1.563rem; margin: 1.9ex 0px 0px; letter-spacing: 0.01=
+rem; }
+
+h3 { font-size: 1.125rem; line-height: 1.3rem; font-weight: 700; letter-spa=
+cing: 0.005rem; }
+
+tr, td { font-family: "Helvetica Neue", "Segoe UI Variable Static Text", He=
+lvetica, Arial, Oxygen-Sans, Roboto, Ubuntu, sans-serif; font-size: 100%; f=
+ont-weight: 400; }
+
+abbr { border-bottom: 1px dotted rgb(20, 20, 20); }
+
+blockquote { margin-right: 0px; margin-left: 40px; }
+
+i { color: rgb(7, 87, 44); }
+
+.body { font-family: "Helvetica Neue", "Segoe UI Variable Static Text", Hel=
+vetica, Arial, Oxygen-Sans, Roboto, Ubuntu, sans-serif; font-size: 100%; }
+
+.blu { color: rgb(0, 95, 159); text-decoration: none; }
+
+.code { font-family: "Lucida Console", "Andale Mono", Menlo, "Courier New",=
+ Courier, monospace; font-size: 100%; }
+
+.indent { margin-left: 40px; }
+
+.psp { color: rgb(110, 79, 20); font-family: "Lucida Console", "Andale Mono=
+", Menlo, "Courier New", Courier, monospace; font-size: 100%; }
+
+.quote { color: rgb(7, 87, 44); font-family: Palatino, "Segoe UI Variable S=
+tatic Text", Georgia, FreeSerif, serif; font-style: italic; }
+
+.az { border: 0px; border-spacing: 0px; border-collapse: collapse; }
+
+.az td { vertical-align: top; }
+
+.az tr { border-bottom: 1pt solid rgb(189, 189, 189); }
+
+a:link { color: rgb(0, 0, 255); text-decoration: none; }
+
+a:visited { color: rgb(153, 27, 193); text-decoration: none; }
+
+a:hover { color: rgb(0, 0, 255); border-bottom: 1px solid rgb(0, 0, 255); }
+
+a:active { color: rgb(51, 127, 232); text-decoration: none; border-bottom: =
+1px solid rgb(51, 127, 232); }
+
+a[href^=3D"#"]:hover { color: rgb(67, 155, 234); }
+
+summary:hover { color: rgb(16, 113, 39); }
+
+#bl { float: left; max-width: 500px; width: 50%; }
+
+#br { color: rgb(51, 51, 51); font-family: "Helvetica Neue", "Segoe UI Vari=
+able Static Text", Helvetica, Arial, Oxygen-Sans, Roboto, Ubuntu, sans-seri=
+f; font-size: 75%; float: left; margin-bottom: 15px; max-width: 500px; text=
+-align: right; letter-spacing: 0.005rem; width: 50%; }
+
+#tnav { height: 45px; width: 1000px; }
+
+#tnav > ul { list-style: none; margin: 0px; padding: 0px; }
+
+#tnav > ul > li { display: block; float: left; height: 40px; line-height: 4=
+0px; margin: 0px 0.3em 0px 0px; outline: none; text-align: center; width: 1=
+40px; }
+
+#tnav a { text-decoration: none; display: block; }
+
+#tnav a:link { color: rgb(0, 51, 255); text-decoration: none; }
+
+#tnav a:visited { color: rgb(0, 51, 255); text-decoration: none; }
+
+#tnav a:hover { color: rgb(231, 231, 231); text-decoration: none; }
+
+#tnav a:focus { color: rgb(34, 146, 49); }
+
+#tnav a:active { color: rgb(20, 20, 20); text-decoration: none; }
+
+#tnav a { border-bottom: none; }
+
+#tnav li a:active { border-radius: 7px; box-shadow: rgba(0, 0, 0, 0.18) 0px=
+ 1px 0px 0px inset; }
+
+.space { line-height: 1.3em; }
+
+@media (pointer: coarse) and (hover: none) {
+  .space { line-height: 2.1rem; }
+  .az { line-height: 2.1rem; }
+  td, p { line-height: 1.5rem; font-size: 1.2rem; }
+  pre .space { line-height: 1.75em; font-size: 1.2rem; }
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+}
+
+.tbtn { background-color: rgb(248, 249, 250); border-color: gray; border-ra=
+dius: 8px; border-style: solid; border-width: 1px; box-shadow: rgba(255, 25=
+5, 255, 0.6) 0px 1px 0px 0px inset; cursor: pointer; font-family: Helvetica=
+, Arial, Oxygen-Sans, Roboto, Ubuntu, sans-serif; font-size: 1.1rem; font-w=
+eight: 400; height: 40px; text-decoration: none; transition: background-col=
+or 0.25s ease 0s; }
+
+.tbtn:hover { background-color: rgb(46, 145, 227); transition: background-c=
+olor 0.25s ease 0s; }
+
+.tbtn a:focus { border-radius: 7px; background-color: rgb(217, 217, 222); o=
+utline: none; }
+
+.tbtn svg { fill: rgb(0, 51, 255); }
+
+.tbtn:hover svg { fill: rgb(255, 254, 254); }
+
+.tbtn:active svg { fill: rgb(0, 51, 255); }
+
+.tflat { color: rgb(20, 20, 20); border-color: gray; border-radius: 8px; bo=
+rder-style: solid; border-width: 1px; font-size: 1.1em; font-family: Helvet=
+ica, Arial, Oxygen-Sans, Roboto, Ubuntu, sans-serif; user-select: none; }
+
+@media (prefers-color-scheme: dark) {
+  body { background-color: rgb(189, 189, 198); }
+  .tbtn a:focus { background-color: rgb(189, 189, 198); }
+  .az tr { border-bottom: 1pt solid rgb(166, 166, 166); }
+  hr { color: rgb(232, 232, 232); }
+  a:link, a:hover { color: rgb(4, 4, 255); }
+  a:visited { color: rgb(125, 18, 158); }
+  .blu { color: rgb(34, 69, 154); }
+}
+
+#search { margin-left: 50px; width: 420px; }
+
+#qu { border-radius: 6px; border-width: 1px; border-style: solid; border-co=
+lor: rgb(124, 124, 124) rgb(172, 181, 190) rgb(221, 221, 221); box-shadow: =
+rgb(204, 204, 204) 0px 1px 0px inset; color: rgb(64, 64, 80); font: 1rem "H=
+elvetica Neue", "Segoe UI Variable Static Text", Helvetica, Arial, Oxygen-S=
+ans, Roboto, Ubuntu, sans-serif; height: 1.125rem; left: 10px; padding: 6px=
+; position: relative; display: block; float: left; top: 6px; z-index: 1; ca=
+ret-color: rgb(63, 96, 173); }
+
+#qu:focus { outline: none; border: 1px solid rgb(77, 144, 254); box-shadow:=
+ rgb(77, 144, 254) 0px 0px 4px 0px; transition: border 1s linear 0s, box-sh=
+adow 1s linear 0s; }
+
+#btn { display: block; float: left; position: relative; left: 20px; top: 6p=
+x; width: 110px; height: 32px; border: 1px solid gray; border-radius: 3px; =
+color: rgb(9, 34, 213); cursor: pointer; font-family: "Helvetica Neue", "Se=
+goe UI Variable Static Text", Helvetica, Arial, Oxygen-Sans, Roboto, Ubuntu=
+, sans-serif; font-size: 0.97rem; font-weight: normal; text-align: center; =
+background: rgb(248, 249, 250); padding-bottom: 3px; }
+
+#btn:hover { background-image: linear-gradient(rgb(248, 249, 250), rgb(206,=
+ 206, 221)); }
+
+#btn:active, #btn:focus { color: rgb(102, 102, 102); border: 1px solid rgb(=
+75, 141, 248); outline: none; }
+------MultipartBoundary--kT3tnyi8VXhkgCieNWmRiVsEUxM7rW7YAHrcSdJjCt----
+Content-Type: text/html
+Content-ID: <frame-EB8AD0FD92367581EAEE9B3C14C5D480@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"></head><body></body></html>
+------MultipartBoundary--kT3tnyi8VXhkgCieNWmRiVsEUxM7rW7YAHrcSdJjCt------

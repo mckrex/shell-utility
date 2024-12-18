@@ -39,6 +39,7 @@ namespace ShellUtilityTests
         [DataRow(@"data\encoding_test_file_utf-32BE.txt")]
         [DataRow(@"data\encoding_test_file_iso-8859-1.txt")]
         [DataRow(@"data\encoding_test_file_utf-7.txt")]
+        [DataRow(@"data\encoding_test_file_utf-16_null.txt")]
         public void IsProbablyText_True(string filePath)
         {
             using (var byteReader = new BinaryReader(new FileInfo(filePath).OpenRead()))
